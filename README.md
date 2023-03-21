@@ -3,9 +3,9 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="Astro-Boy-Transparent-Images.png" alt="logo" width="120"  height="auto" />
+  <img src="src/img/mainLogo.png" alt="logo" width="120"  height="auto" />
   <br/>
-  <h3><b>Get Started with Webpack</b></h3>
+  <h3><b>Foodfree</b></h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -16,6 +16,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [Future Features](#🔭-future-features)
 - [👥 Author](#authors)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -24,11 +25,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Alex Muñoz's Web Developer Portfolio <a name="about-project"></a>
+# 📖 Foodfree <a name="about-project"></a>
 
-This project aims to create a fully implemented professional portfolio to host my best work as a web developer. The portfolio itself is now in a mobile version develpment stage.
-
-> <br> For future implementations, please go to the [Future Features](#future-features) section. [Click here to see the Live Demo](https://astroboyreloaded.github.io/).
+This app will show you some delicious meals you can make to calm those cravings easily, with ingredients and comments from users about each dish. Fetching data from Free Meal API, it allows you to comment and like on each meal.
+For future implementations, please go to the [Future Features](#future-features) section. [Click here to see the Live Demo]().
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -42,63 +42,28 @@ This project aims to create a fully implemented professional portfolio to host m
     <li><a href="https://webpack.js.org/">webpack</a></li>
   </ul>
 
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **basic webpack configuration**
+- **Basic setup**
 
-### Prerequisites
+## 🔭 Future Features <a name="future-features"></a>
 
-- [HTML](https://www.w3.org/html/) + [CSS](https://www.w3.org/Style/CSS/Overview.en.html) + [ES6](https://www.javascript.com/)
+- **Dishes data and images**
+- **Likes**
+- **Coments**
+- **Style**
 
-### Setup
-
-- If you wish to work from this project by editing it's code:
-
-```sh
-git clone https://github.com/astroboyReloaded/astroboyReloaded.github.io.git
-```
-
-### Install
-
-You may add linters to ensure adhering to best practices.
-
-1.- Create a package.json:
-
-```sh
-npm init -y
-```
-
-or:
-
-```sh
-npm init
-```
-
-to fill up fields manually.
-
-2.- Install all dependencies:
-
-```sh
-npm install
-```
-
-### Usage
-
-- May use as a base or reference to develop your own portfolio.
-- Run
-
-```sh
-npm run watch
-```
-To auto-bundle every time you save changes.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- AUTHORS -->
 
-## Author <a name="authors"></a>
+## Authors <a name="authors"></a>
+
+👤 Nafeur Rahman Adil
+
+- GitHub: [@nxn404-n/](https://github.com/nxn404-n/)
+- Twitter: [@nxn_404](https://twitter.com/nxn_404)
+- LinkedIn: (https://www.linkedin.com/in/nafeurrahmanadil/)
 
 👤 **astroboyReloaded**
 
@@ -117,15 +82,15 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like my work on this project, please give me a star on this repo. I would also love to read your comment letting me know what you think!
+If you like our work on this project, please give me a star on this repo. I would also love to read your comment letting me know what you think!
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Thanks to [Microverse](https://www.microverse.org/) for giving me a path to follow in this learning journey!
-> Thanks to my mates, who walk by and share they experiences and knowledge with me during this journey: you make this experience even more valuable!
-> Thanks to [GitHub](https://github.com/) for being so awesome!
+Thanks to [Microverse](https://www.microverse.org/) for giving me a path to follow in this learning journey!
+Thanks to my mates, who walk by and share they experiences and knowledge with me during this journey: you make this experience even more valuable!
+Thanks to [GitHub](https://github.com/) for being so awesome!
 
 <!-- LICENSE -->
 

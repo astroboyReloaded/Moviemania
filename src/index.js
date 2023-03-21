@@ -1,12 +1,12 @@
 import _ from 'lodash';
-import './style.css'
+import './style.css';
 
 function component() {
-    const element = document.createElement('div');
+  const element = document.createElement('div');
 
-    element.innerHTML = _.join(['Project', 'setup'], ' ');
+  element.innerHTML = 'Foods will go here';
 
-    return element;
+  return element;
 }
 
 document.body.appendChild(component());
