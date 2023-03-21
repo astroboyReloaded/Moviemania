@@ -1,3 +1,42 @@
 body {
-    background-color: bisque;
+  background-color: rgb(0, 0, 116);
+}
+
+main {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+#nav-ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-li {
+  margin-inline: 9px;
+}
+
+article {
+  margin: 18px;
+}
+
+.movie-title {
+  font-size: 1.2rem;
+  max-width: 210px;
 }
