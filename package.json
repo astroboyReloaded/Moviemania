@@ -1,5 +1,5 @@
 {
-  "name": "set-up-project-with-webpack",
+  "name": "moviemania",
   "version": "1.0.0",
   "description": "Boilerplate for New Project using webpack (with linters)",
   "private": "true",
