@@ -1,4 +1,4 @@
-# Set Up Project with Webpack, by Alex Muñoz.
+# A dish app for food lovers.
 
 <a name="readme-top"></a>
 
