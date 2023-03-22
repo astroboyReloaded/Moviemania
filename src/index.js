@@ -23,13 +23,13 @@ async function sendLike(showId, likeCount) {
 
 // Fetch data from TVMaze API
 fetch('https://api.tvmaze.com/shows?page=0')
-  .then(response => response.json())
-  .then(async data => {
+  .then((response) => response.json())
+  .then(async (data) => {
     // Get the first 10 shows
     const shows = data.slice(0, 10);
 
     // Get likes for all shows in parallel
-    const showLikes = await Promise.all(shows.map(show => getLikes(show.id)));
+    const showLikes = await Promise.all(shows.map((show) => getLikes(show.id)));
 
     // Loop through all shows
     shows.forEach((show, i) => {
@@ -59,10 +59,11 @@ fetch('https://api.tvmaze.com/shows?page=0')
 
       // Add event listener for like button click
       likeBtn.addEventListener('click', async () => {
+        // eslint-disable-next-line no-plusplus
         show.likes++;
         likeCount.innerHTML = `${show.likes} likes`;
         const response = await sendLike(show.id, show.likes);
-        console.log(response);
+        return response;
       });
 
       // Append elements to list item and list item to main list
