@@ -11,11 +11,6 @@ span {
   cursor: pointer;
 }
 
-button,
-span {
-  cursor: pointer;
-}
-
 header {
   display: flex;
   align-items: center;
