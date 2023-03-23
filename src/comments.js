@@ -22,7 +22,7 @@ const getComments = async (id) => {
     })
     .catch(() => {
       commentsContainer.innerHTML = `
-    <p>Be the firs to comment!</p>
+    <p>Be the first to comment!</p>
     `;
     });
 };
