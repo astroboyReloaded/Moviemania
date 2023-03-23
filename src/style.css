@@ -3,6 +3,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Poppins', sans-serif;
+  color: white;
 }
 
 button,
@@ -16,10 +17,6 @@ header {
   justify-content: space-between;
   padding: 0 18px;
   border-bottom: 2px solid white;
-}
-
-h1 {
-  color: white;
 }
 
 #nav-ul {
@@ -36,7 +33,6 @@ main {
   width: 100vw;
   display: flex;
   flex-wrap: wrap;
-  color: white;
   padding: 50px 0;
   justify-content: center;
   gap: 30px;
@@ -64,7 +60,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
   gap: 10px;
   padding: 18px;
   border-top: 2px solid white;
@@ -73,7 +68,6 @@ footer {
 .material-symbols-outlined {
   background: none;
   border: none;
-  color: white;
   font-size: 20px;
   cursor: pointer;
 }

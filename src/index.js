@@ -1,3 +1,5 @@
+/* eslint-disable no-use-before-define */
+/* eslint-disable no-plusplus */
 // Import CSS file
 import './style.css';
 
@@ -5,20 +7,22 @@ import './style.css';
 const main = document.getElementById('main');
 
 // Async function to get likes for a show
-async function getLikes(showId) {
-  const response = await fetch(`https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/8ae878c40e24371ea51406311a0a2161/likes/?item_id=${showId}`);
+async function getLikes() {
+  const response = await fetch('https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/8ae878c40e24371ea51406311a0a2161/likes');
   const data = await response.json();
   return data[0]?.likes || 0;
 }
 
 // Async function to send like count for a show
-async function sendLike(showId, likeCount) {
+async function sendLike(showId) {
   const response = await fetch(`https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/8ae878c40e24371ea51406311a0a2161/likes/${showId}`, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ likes: likeCount }),
+    headers: { 'Content-Type': 'application/json; charset=UTF-8' },
+    body: JSON.stringify({
+      item_id: showId,
+    }),
   });
-  return response.json();
+  return response.text();
 }
 
 // Fetch data from TVMaze API
@@ -41,6 +45,7 @@ fetch('https://api.tvmaze.com/shows?page=0')
       const likeBtn = document.createElement('span');
       const likeCount = document.createElement('span');
       const footer = document.createElement('div');
+      const listCount = document.getElementById('list-count');
 
       // Set classes for elements
       li.className = 'main__list';
@@ -56,10 +61,10 @@ fetch('https://api.tvmaze.com/shows?page=0')
       likeBtn.innerText = 'favorite';
       show.likes = showLikes[i];
       likeCount.innerHTML = `${show.likes} likes`;
+      listCount.innerHTML = `(${countItems()})`;
 
       // Add event listener for like button click
       likeBtn.addEventListener('click', async () => {
-        // eslint-disable-next-line no-plusplus
         show.likes++;
         likeCount.innerHTML = `${show.likes} likes`;
         const response = await sendLike(show.id, show.likes);
@@ -72,3 +77,14 @@ fetch('https://api.tvmaze.com/shows?page=0')
       main.appendChild(li);
     });
   });
+
+function countItems() {
+  const listItems = document.querySelectorAll('.main__list');
+  let count = 1;
+  listItems.forEach((item) => {
+    if (item.style.display !== 'none') {
+      count++;
+    }
+  });
+  return count;
+}
