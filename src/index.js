@@ -8,14 +8,14 @@ const main = document.getElementById('main');
 
 // Async function to get likes for a show
 async function getLikes() {
-  const response = await fetch('https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/8ae878c40e24371ea51406311a0a2161/likes');
+  const response = await fetch('https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/SzueLQl3FaQn1wJjDbsx/likes');
   const data = await response.json();
-  return data[0]?.likes || 0;
+  return data;
 }
 
 // Async function to send like count for a show
 async function sendLike(showId) {
-  const response = await fetch(`https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/8ae878c40e24371ea51406311a0a2161/likes/${showId}`, {
+  const response = await fetch('https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/SzueLQl3FaQn1wJjDbsx/likes', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json; charset=UTF-8' },
     body: JSON.stringify({
@@ -67,7 +67,7 @@ fetch('https://api.tvmaze.com/shows?page=0')
       likeBtn.addEventListener('click', async () => {
         show.likes++;
         likeCount.innerHTML = `${show.likes} likes`;
-        const response = await sendLike(show.id, show.likes);
+        const response = await sendLike(show.id);
         return response;
       });
 
