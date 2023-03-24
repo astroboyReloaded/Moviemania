@@ -3,6 +3,12 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+button,
+span {
+  cursor: pointer;
   overflow-x: hidden;
 }
 
@@ -12,10 +18,6 @@ header {
   justify-content: space-between;
   padding: 0 18px;
   border-bottom: 2px solid white;
-}
-
-h1 {
-  color: white;
 }
 
 ul {
@@ -32,25 +34,65 @@ main {
   width: 100vw;
   display: flex;
   flex-wrap: wrap;
-  color: white;
-  padding-top: 20px;
+  padding: 50px 0;
   justify-content: center;
   gap: 30px;
 }
 
-.movie-title {
-  font-size: 1.2rem;
-  max-width: 210px;
+.main__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 2px solid white;
+}
+
+img {
+  max-width: 170px;
+}
+
+.main__list__btn {
+  display: flex;
+  gap: 30px;
+}
+
+.main__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 2px solid white;
+}
+
+img {
+  max-width: 170px;
+}
+
+.main__list__btn {
+  display: flex;
+  gap: 30px;
 }
 
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
   gap: 10px;
   padding: 18px;
   border-top: 2px solid white;
+}
+
+.material-symbols-outlined {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.material-symbols-outlined:hover {
+  color: rgb(211, 18, 18);
 }
 
 a {
