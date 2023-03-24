@@ -1,3 +1,5 @@
+import commentsCount from './commentsCount.js';
+
 const getComments = async (id) => {
   const commentsContainer = document.getElementById('commentsSection');
 
@@ -8,7 +10,9 @@ const getComments = async (id) => {
     .then((data) => {
       const comments = data;
       document.body.style.overflowY = 'hidden';
-      commentsContainer.innerHTML = `<h2>Comments(${comments.length})</h2>
+      commentsContainer.innerHTML = `<h2>Comments(${commentsCount(
+        comments,
+      )})</h2>
         <ul class="coments-ul">
           ${comments
     .map(
