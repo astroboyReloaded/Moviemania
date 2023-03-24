@@ -3,41 +3,17 @@
 // Import CSS file
 import './style.css';
 
+// Import item count function
+import countItems from '../modules/itemCount.js';
+
+// Import likes function
+import { getLikes, sendLike } from '../modules/likes.js';
+
 // Import popup function
-import popup from './poup.js';
+import popup from '../modules/poup.js';
 // Get reference to main list element
 const main = document.getElementById('main');
-// Async function to get likes for a show
-const getLikes = async () => {
-  await fetch(
-    'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/SzueLQl3FaQn1wJjDbsx/likes',
-  )
-    .then((response) => response.json())
-    .then((data) => renderLikes(data));
-};
-const renderLikes = (likes) => {
-  const likesContainers = document.querySelectorAll('.likesContainer');
-  likesContainers.forEach((container) => {
-    // eslint-disable-next-line array-callback-return
-    likes.filter((like) => {
-      if (Number(container.id) === like.item_id) {
-        container.innerText = like.likes;
-      }
-    });
-  });
-};
-// Async function to send like count for a show
-const sendLike = async (id) => {
-  await fetch(
-    'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/SzueLQl3FaQn1wJjDbsx/likes',
-    {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ item_id: id }),
-    },
-  );
-  getLikes();
-};
+
 // Fetch data from TVMaze API
 (async () => {
   await fetch('https://api.tvmaze.com/shows?page=0')
@@ -82,14 +58,3 @@ const sendLike = async (id) => {
       getLikes();
     });
 })();
-
-function countItems() {
-  const listItems = document.querySelectorAll('.main__list');
-  let count = 1;
-  listItems.forEach((item) => {
-    if (item.style.display !== 'none') {
-      count++;
-    }
-  });
-  return count;
-}
