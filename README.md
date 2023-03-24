@@ -29,7 +29,7 @@
 # 📖 Foodfree <a name="about-project"></a>
 
 Watch your favourite shows. See likes and comments from users. Like and comments on any show you want!
-For future implementations, please go to the [Future Features](#future-features) section. [Click here to see the Live Demo]().
+For future implementations, please go to the [Future Features](#future-features) section. [Click here to see the Live Demo](https://astroboyreloaded.github.io/JavaScript-Capstone-M2/dist).
 
 ## 🛠 Built With <a name="built-with"></a>
 
