@@ -36,6 +36,7 @@ const main = document.getElementById('main');
         // Set classes for elements
         li.className = 'main__list';
         footer.className = 'main__list__btn';
+        commentBtn.classList.add('home-Img');
         // Set image source and name text
         img.src = show.image.medium;
         name.innerText = show.name;
