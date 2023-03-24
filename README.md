@@ -3,9 +3,9 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="src/img/mainLogo.png" alt="logo" width="120"  height="auto" />
+<!--   <img src="src/img/mainLogo.png" alt="logo" width="120"  height="auto" /> -->
   <br/>
-  <h3><b>Foodfree</b></h3>
+  <h3><b>Moviemania</b></h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -26,7 +26,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Foodfree <a name="about-project"></a>
+# 📖 Moviemania <a name="about-project"></a>
 
 Watch your favourite shows. See likes and comments from users. Like and comments on any show you want!
 For future implementations, please go to the [Future Features](#future-features) section. [Click here to see the Live Demo](https://astroboyreloaded.github.io/JavaScript-Capstone-M2/dist).
