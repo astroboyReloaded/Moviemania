@@ -4,13 +4,13 @@
 import './style.css';
 
 // Import item count function
-import countItems from '../modules/itemCount.js';
+import countItems from './modules/itemCount.js';
 
 // Import likes function
-import { getLikes, sendLike } from '../modules/likes.js';
+import { getLikes, sendLike } from './modules/likes.js';
 
 // Import popup function
-import popup from '../modules/poup.js';
+import popup from './modules/poup.js';
 // Get reference to main list element
 const main = document.getElementById('main');
 

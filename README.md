@@ -5,7 +5,7 @@
 <div align="center">
 <!--   <img src="src/img/mainLogo.png" alt="logo" width="120"  height="auto" /> -->
   <br/>
-  <h3><b>Moviemania</b></h3>
+  <h1><b>Moviemania</b></h1>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -71,9 +71,9 @@ For future implementations, please go to the [Future Features](#future-features)
 
 👤 Nafeur Rahman Adil
 
-- GitHub: [@nxn404-n/](https://github.com/nxn404-n/)
+- GitHub: [@nxn404-n](https://github.com/nxn404-n/)
 - Twitter: [@nxn_404](https://twitter.com/nxn_404)
-- LinkedIn: (https://www.linkedin.com/in/nafeurrahmanadil/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nafeurrahmanadil/)
 
 <!-- CONTRIBUTING -->
 
