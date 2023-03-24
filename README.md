@@ -29,7 +29,7 @@
 # 📖 Moviemania <a name="about-project"></a>
 
 Watch your favourite shows. See likes and comments from users. Like and comments on any show you want!
-For future implementations, please go to the [Future Features](#future-features) section. [Click here to see the Live Demo](https://astroboyreloaded.github.io/JavaScript-Capstone-M2/dist).
+For future implementations, please go to the [Future Features](#future-features) section. [Click here to see the Live Demo](https://astroboyreloaded.github.io/JavaScript-Capstone-M2/dist/index.html).
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -58,7 +58,7 @@ For future implementations, please go to the [Future Features](#future-features)
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://astroboyreloaded.github.io/JavaScript-Capstone-M2/dist)
+- [Live Demo Link](https://astroboyreloaded.github.io/JavaScript-Capstone-M2/dist/index.html)
 <!-- AUTHORS -->
 
 ## Authors <a name="authors"></a>
