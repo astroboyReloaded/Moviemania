@@ -59,6 +59,7 @@ For future implementations, please go to the [Future Features](#future-features)
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://astroboyreloaded.github.io/JavaScript-Capstone-M2/dist/index.html)
+- [Demo Video](https://drive.google.com/file/d/1ozv7A_isei4zpVEl685I3ZejguZbCgui/view?usp=sharing)
 <!-- AUTHORS -->
 
 ## Authors <a name="authors"></a>
