@@ -1,4 +1,4 @@
-import commentsCount from '../modules/commentsCount.js';
+import commentsCount from '../src/modules/commentsCount.js';
 
 const noCmmnts = {
   error: {
