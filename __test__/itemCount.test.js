@@ -1,4 +1,4 @@
-import countItems from '../modules/itemCount.js';
+import countItems from '../src/modules/itemCount.js';
 
 test('Count items in the list', () => {
   document.body.innerHTML = `

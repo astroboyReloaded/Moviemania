@@ -1,11 +1,11 @@
-# A dish app for food lovers.
+# A movies and series app for cinema maniacs.
 
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="src/img/mainLogo.png" alt="logo" width="120"  height="auto" />
+<!--   <img src="src/img/mainLogo.png" alt="logo" width="120"  height="auto" /> -->
   <br/>
-  <h3><b>Foodfree</b></h3>
+  <h1><b>Moviemania</b></h1>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -17,6 +17,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
     - [Future Features](#🔭-future-features)
+  - [🚀 Live Demo](#live-demo)
 - [👥 Author](#authors)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -25,10 +26,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Foodfree <a name="about-project"></a>
+# 📖 Moviemania <a name="about-project"></a>
 
-This app will show you some delicious meals you can make to calm those cravings easily, with ingredients and comments from users about each dish. Fetching data from Free Meal API, it allows you to comment and like on each meal.
-For future implementations, please go to the [Future Features](#future-features) section. [Click here to see the Live Demo]().
+Watch your favourite shows. See likes and comments from users. Like and comments on any show you want!
+For future implementations, please go to the [Future Features](#future-features) section. [Click here to see the Live Demo](https://astroboyreloaded.github.io/JavaScript-Capstone-M2/dist/index.html).
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -46,30 +47,33 @@ For future implementations, please go to the [Future Features](#future-features)
 
 ### Key Features <a name="key-features"></a>
 
-- **Basic setup**
+- **Find a show you love**
+- **Like and comment on your favorite shows**
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Dishes data and images**
-- **Likes**
-- **Coments**
-- **Style**
+- **UI/UX imprivements
 
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://astroboyreloaded.github.io/JavaScript-Capstone-M2/dist/index.html)
 <!-- AUTHORS -->
 
 ## Authors <a name="authors"></a>
-
-👤 Nafeur Rahman Adil
-
-- GitHub: [@nxn404-n/](https://github.com/nxn404-n/)
-- Twitter: [@nxn_404](https://twitter.com/nxn_404)
-- LinkedIn: (https://www.linkedin.com/in/nafeurrahmanadil/)
 
 👤 **astroboyReloaded**
 
 - GitHub: [astroboyReloaded](https://github.com/astroboyReloaded)
 - Twitter: [@astroboyReload](https://twitter.com/astroboyReload)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/astroboyreloaded/)
+
+👤 Nafeur Rahman Adil
+
+- GitHub: [@nxn404-n](https://github.com/nxn404-n/)
+- Twitter: [@nxn_404](https://twitter.com/nxn_404)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nafeurrahmanadil/)
 
 <!-- CONTRIBUTING -->
 
