@@ -10,7 +10,7 @@ const main = document.getElementById('main');
 // Async function to get likes for a show
 const getLikes = async () => {
   await fetch(
-    'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/SzueLQl3FaQn1wJjDbsx/likes'
+    'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/SzueLQl3FaQn1wJjDbsx/likes',
   )
     .then((response) => response.json())
     .then((data) => renderLikes(data));
@@ -34,7 +34,7 @@ const sendLike = async (id) => {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ item_id: id }),
-    }
+    },
   );
   getLikes();
 };
