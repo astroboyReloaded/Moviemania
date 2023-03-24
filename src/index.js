@@ -2,6 +2,9 @@
 /* eslint-disable no-use-before-define */
 // Import CSS file
 import './style.css';
+
+// Import popup function
+import popup from './poup.js';
 // Get reference to main list element
 const main = document.getElementById('main');
 // Async function to get likes for a show
@@ -49,6 +52,7 @@ const sendLike = async (id) => {
         const img = document.createElement('img');
         const name = document.createElement('strong');
         const commentBtn = document.createElement('button');
+        commentBtn.addEventListener('click', () => popup(show));
         const likeBtn = document.createElement('span');
         const likeCount = document.createElement('span');
         const footer = document.createElement('div');
