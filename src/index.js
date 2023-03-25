@@ -1,5 +1,3 @@
-/* eslint-disable no-plusplus */
-/* eslint-disable no-use-before-define */
 // Import CSS file
 import './style.css';
 
