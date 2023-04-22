@@ -1,3 +1,155 @@
 body {
-    background-color: bisque;
+  background-color: rgb(0, 0, 116);
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+button,
+span {
+  cursor: pointer;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 18px;
+  border-bottom: 2px solid white;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-li {
+  margin-inline: 19px;
+  font-size: 20px;
+}
+
+main {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0;
+  justify-content: center;
+  gap: 30px;
+}
+
+.main__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 2px solid white;
+}
+
+.home-Img {
+  max-width: 170px;
+}
+
+.main__list__btn {
+  display: flex;
+  gap: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 18px;
+  border-top: 2px solid white;
+}
+
+.material-symbols-outlined {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.material-symbols-outlined:hover {
+  color: rgb(211, 18, 18);
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: aliceblue;
+}
+
+.movieArticle {
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  width: calc(100vw - 72px);
+  margin: 18px;
+  padding: 18px;
+  height: calc(100vh - 72px);
+  background-color: rgba(0, 0, 0, 0.9);
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.closeMovieArt {
+  width: 30px;
+  position: fixed;
+  right: 54px;
+}
+
+.articleImg {
+  width: 36vw;
+}
+
+p {
+  color: white;
+}
+
+#commentsSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45vw;
+}
+
+h2 {
+  color: white;
+  align-self: center;
+}
+
+.coments-ul {
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  align-self: flex-start;
+}
+
+.comment-li {
+  color: white;
+}
+
+.commentsForm {
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+}
+
+#userName {
+  width: 50%;
+  margin-block: 18px;
+}
+
+#Comment {
+  margin-block: 18px;
+  min-height: 100px;
+}
+
+#submitComment {
+  width: 50%;
 }
